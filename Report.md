@@ -171,5 +171,3 @@ Plots are generated using this function:
 ```
 multiplot(plot_weekdays, plot_weekends, cols = 1)
 ```
-
-
