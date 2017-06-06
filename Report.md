@@ -103,7 +103,13 @@ ggplot(data = analysis_3_data) + aes(x = factor(date), y = steps) + geom_histogr
 mean(analysis_3_data$steps)
 median(analysis_3_data$steps)
 ```
-
+* The following table compares the values for steps where missing are present and where missing values have been imputed:
+```
+|     |   With missing values    | Missing values imputed    |
+|-------------|---------------------|-----------------------------|
+| Mean     |   r format(mean(analysis_1_data$steps), digits = 2)     |   r format(mean(analysis_3_data$steps), digits = 2)     |
+| Median   |   r format(median(analysis_1_data$steps), digits = 2)   |   r format(median(analysis_3_data$steps), digits = 2)   | 
+```
 ### Are there differences in activity patterns between weekdays and weekends?
 1. Created a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
 * To analyse activity patterns between weekdays and weekends, a vector is created with the weekday for each value of date in imputed_activity_data. A factor variable, which_day, is then added to imputed_activity_data indicating whether the date is on a weekday or a weekend
