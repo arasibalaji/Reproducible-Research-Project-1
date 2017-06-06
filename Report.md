@@ -1,5 +1,4 @@
 # Introduction
-This project forms part of the Reproducible Research course on Coursera. The goal of this project is to give the student an opportunity to conduct an analysis that is reproducible: "the ability of an entire [study] to be reproduced, etheir by the researcher or by someone else working independently" (Wikipedia).
 To this end, the assignment requires students to conduct an analysis and to consequently produce a report by following a literate programming approach, where text and code are weaved toghether in a human-readable format. This type of report will be produced with knitr.
 ## Analysis
 ### Data
